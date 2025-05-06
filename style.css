@@ -5,7 +5,7 @@
  }
 
 nav {
-    background-color: #994186;
+    background-color: #8a3b79;
     padding: 10px 20px;
     position: relative;
 }
@@ -23,7 +23,7 @@ display: none;
  }
  .hamburguer span{
 height: 4px;
-background-color: black;
+background-color: rgb(245, 245, 245);
 border-radius: 2px;
  }
 
