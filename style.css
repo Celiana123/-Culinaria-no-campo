@@ -67,8 +67,7 @@ ul.menu{
   }
 
   }
-  /* From Uiverse.io by Subaashbala */ 
-/* Prior to using this loader, please ensure that you have set a background image or background color, as the text is transparent and not designed with a solid color. */
+  
 .loader {
   --ANIMATION-DELAY-MULTIPLIER: 70ms;
   padding: 0;
