@@ -150,13 +150,13 @@ ul.menu{
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(154, 42, 158);
   border-radius: 1rem;
 }
 
 .flip-card-front {
-  background: linear-gradient(120deg, rgba(138, 30, 132, 0.808) 60%, rgb(172, 67, 158) 88%,
-     rgba(255, 255, 255, 0.74) 40%, rgba(255, 255, 255, 0.979) 48%);
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.808) 60%, rgb(172, 67, 158) 88%,
+     rgba(255, 255, 255, 0.74) 40%, rgba(136, 18, 136, 0.979) 48%);
   color: rgba(120, 22, 165, 0.774);
 }
 
