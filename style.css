@@ -109,5 +109,71 @@ ul.menu{
 /* hover */
 .button:hover .hover-text {
   width: 100%;
-  filter: drop-shadow(0 0 23px var(--animation-color))
+  filter: drop-shadow(0 0 23px var(--animation-color)) 
+
+}
+                    /* From Uiverse.io by mRcOol7 */ 
+.card {
+  --background: linear-gradient(to right, #962bc0 0%, #9b54b8 100%);
+  width: 190px;
+  height: 254px;
+  padding: 5px;
+  border-radius: 1rem;
+  overflow: visible;
+  background: #a1a3a3;
+  background: var(--background);
+  position: relative;
+  z-index: 1;
+}
+
+.card::before,
+.card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  z-index: -1;
+}
+
+.card::before {
+  background: linear-gradient(to bottom right, #db5cdb 0%, #8a1da5c7 100%);
+  transform: rotate(2deg);
+}
+
+.card::after {
+  background: linear-gradient(to top right, #d584fa 0%, #740a8a 100%);
+  transform: rotate(-2deg);
+}
+
+.card-info {
+  --color: #eaeff1;
+  background: var(--color);
+  color: var(--color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  border-radius: 0.7rem;
+  position: relative;
+  z-index: 2;
+}
+
+.card .title {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.card:hover::before,
+.card:hover::after {
+  opacity: 0;
+}
+
+.card:hover .card-info {
+  color: #85158f;
+  transition: color 1s;
 }
