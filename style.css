@@ -150,7 +150,7 @@ ul.menu{
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border: 1px solid rgb(110, 4, 114);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 1rem;
 }
 
