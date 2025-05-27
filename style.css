@@ -155,7 +155,7 @@ ul.menu{
 }
 
 .flip-card-front {
-  background: linear-gradient(120deg, rgba(102, 13, 129, 0.808) 60%, rgb(172, 67, 158) 88%,
+  background: linear-gradient(120deg, rgba(161, 41, 197, 0.938) 60%, rgb(172, 67, 158) 88%,
      rgba(126, 20, 175, 0.74) 40%, rgba(255, 255, 255, 0.979) 48%);
   color: rgba(120, 22, 165, 0.774);
 }
@@ -163,6 +163,6 @@ ul.menu{
 .flip-card-back {
   background: linear-gradient(120deg, rgb(133, 43, 141) 30%, rgb(164, 65, 177) 88%,
      rgb(170, 83, 170) 40%, rgb(99, 10, 87) 78%);
-  color: rgba(164, 40, 236, 0.616);
+  color: rgba(255, 255, 255, 0.616);
   transform: rotateY(180deg);
 }
