@@ -141,7 +141,7 @@ ul.menu{
 }
 
 .flip-card-front, .flip-card-back {
-  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 14px 0 rgba(255, 251, 251, 0.2);
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -155,7 +155,7 @@ ul.menu{
 }
 
 .flip-card-front {
-  background: linear-gradient(120deg, rgba(255, 255, 255, 0.808) 60%, rgb(172, 67, 158) 88%,
+  background: linear-gradient(120deg, rgba(102, 13, 129, 0.808) 60%, rgb(172, 67, 158) 88%,
      rgba(126, 20, 175, 0.74) 40%, rgba(146, 29, 170, 0.979) 48%);
   color: rgba(120, 22, 165, 0.774);
 }
@@ -163,6 +163,6 @@ ul.menu{
 .flip-card-back {
   background: linear-gradient(120deg, rgb(133, 43, 141) 30%, rgb(164, 65, 177) 88%,
      rgb(170, 83, 170) 40%, rgb(99, 10, 87) 78%);
-  color: rgb(132, 51, 179);
+  color: rgba(164, 40, 236, 0.616);
   transform: rotateY(180deg);
 }
