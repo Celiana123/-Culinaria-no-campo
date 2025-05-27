@@ -163,6 +163,6 @@ ul.menu{
 .flip-card-back {
   background: linear-gradient(120deg, rgb(133, 43, 141) 30%, rgb(164, 65, 177) 88%,
      rgb(170, 83, 170) 40%, rgb(99, 10, 87) 78%);
-  color: white;
+  color: rgb(132, 51, 179);
   transform: rotateY(180deg);
 }
