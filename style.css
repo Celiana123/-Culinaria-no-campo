@@ -155,9 +155,9 @@ ul.menu{
 }
 
 .flip-card-front {
-  background: linear-gradient(120deg, rgb(5, 5, 5) 60%, rgb(172, 67, 158) 88%,
+  background: linear-gradient(120deg, rgba(138, 30, 132, 0.808) 60%, rgb(172, 67, 158) 88%,
      rgba(150, 33, 165, 0.74) 40%, rgba(248, 245, 244, 0.603) 48%);
-  color: coral;
+  color: rgba(120, 22, 165, 0.774);
 }
 
 .flip-card-back {
