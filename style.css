@@ -150,19 +150,19 @@ ul.menu{
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border: 1px solid coral;
+  border: 1px solid rgb(110, 4, 114);
   border-radius: 1rem;
 }
 
 .flip-card-front {
-  background: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%,
-     rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%);
+  background: linear-gradient(120deg, rgb(5, 5, 5) 60%, rgb(172, 67, 158) 88%,
+     rgba(150, 33, 165, 0.74) 40%, rgba(248, 245, 244, 0.603) 48%);
   color: coral;
 }
 
 .flip-card-back {
-  background: linear-gradient(120deg, rgb(255, 174, 145) 30%, coral 88%,
-     bisque 40%, rgb(255, 185, 160) 78%);
+  background: linear-gradient(120deg, rgb(133, 43, 141) 30%, rgb(164, 65, 177) 88%,
+     rgb(170, 83, 170) 40%, rgb(99, 10, 87) 78%);
   color: white;
   transform: rotateY(180deg);
 }
