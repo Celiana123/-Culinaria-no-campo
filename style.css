@@ -66,7 +66,7 @@ nav h1 {
   .menu {
     display: none;
     flex-direction: column;
-    background: #221fd1;
+    background: #d1601f;
     position: absolute;
     top: 60px;
     left: 0;
@@ -86,7 +86,7 @@ nav h1 {
 
 .conteudo h2 {
   margin-top: 20px;
-  color: #121f97;
+  color: #d47303;
 }
 
 .conteudo p {
@@ -124,7 +124,7 @@ nav h1 {
 }
 /* Rodapé */
 footer {
-  background-color: #1932be;
+  background-color: #be6919;
   color: white;
   text-align: center;
   padding: 1rem;
