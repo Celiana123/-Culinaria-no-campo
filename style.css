@@ -1,114 +1,133 @@
-*  {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar */
 nav {
-    background-color: #7e1d69;
-    padding: 10px 20px;
-    position: relative;
+  background-color: #2749e0;
+  color: white;
+  padding: 10px 20px;
+  position: relative;
+}
+
+nav h1 {
+  text-align: center;
+  margin-top: 10px;
 }
 
 .menu-toggle {
-    display: none;
+  display: none;
 }
 
 .hamburguer {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    width: 30px;
-    height: 25px;
-    justify-content: space-between;
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  width: 30px;
+  height: 25px;
+  justify-content: space-between;
 }
 
 .hamburguer span {
-    height: 4px;
-    background: white;
-    border-radius: 2px;
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
 }
 
-ul.menu {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+/* Menu */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 10px;
 }
 
-ul.menu li a {
-    color: rgb(238, 238, 238);
-    text-decoration: none;
-}
-
-h1{
-    align-items: center;
-    text-align: center;
-    color: aliceblue;
-}
-/*Responsivo*/
-@media (max-width:768px) {
-.hamburguer {
-    display: flex;
-
-}
-ul.menu{
-   display: none;
-   flex-direction: column;
-   background: #333;
-   position: absolute;
-   top: 60px;
-   left: 0;
-   width: 100%;
-
-}
-.menu-toggle:checked
-+ .hamburguer+ul.menu {
-   display: flex;
-  }
-
-  }
-/* From Uiverse.io by satyamchaudharydev */ 
-/* === removing default button style ===*/
-.button {
-  margin: 0;
-  height: auto;
-  background: transparent;
-  padding: 0;
-  border: none;
-  cursor: pointer;
-}
-
-/* button styling */
-.button {
-  --border-right: 6px;
-  --text-stroke-color: rgba(255,255,255,0.6);
-  --animation-color: #700867;
-  --fs-size: 2em;
-  letter-spacing: 3px;
+.menu li a {
+  color: white;
   text-decoration: none;
-  font-size: var(--fs-size);
-  font-family: "Arial";
-  position: relative;
-  text-transform: uppercase;
-  color: transparent;
-  -webkit-text-stroke: 1px var(--text-stroke-color);
+  font-weight: bold;
 }
-/* this is the text, when you hover on button */
-.hover-text {
-  position: absolute;
-  box-sizing: border-box;
-  content: attr(data-text);
-  color: var(--animation-color);
-  width: 0%;
-  inset: 0;
-  border-right: var(--border-right) solid var(--animation-color);
-  overflow: hidden;
-  transition: 0.5s;
-  -webkit-text-stroke: 1px var(--animation-color);
+
+@media (max-width: 768px) {
+  .hamburguer {
+    display: flex;
+    margin: 10px;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    background: #46acff;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .menu-toggle:checked + .hamburguer + .menu {
+    display: flex;
+  }
 }
-/* hover */
-.button:hover .hover-text {
-  width: 100%;
-  filter: drop-shadow(0 0 23px var(--animation-color)) 
+
+/* Conteúdo */
+.conteudo {
+  padding: 20px;
+}
+
+.conteudo h2 {
+  margin-top: 20px;
+  color: #121f97;
+}
+
+.conteudo p {
+  margin: 10px 0 20px;
+  line-height: 1.6;
+}
+
+/* Imagens */
+.imagem-destaque img,
+.imagem-secundaria img {
+  width: 80%;
+  max-width: 500px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.imagem-tercearia img {
+  width: 80%;
+  max-width: 500px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.imagem-quartenaria img {
+  width: 80%;
+  max-width: 500px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+/* Rodapé */
+footer {
+  background-color: #1982be;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 40px;
 }
  
